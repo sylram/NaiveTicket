@@ -15,6 +15,8 @@ public class TicketMachine
     private int price;
     // The amount of money entered by a customer so far.
     private int balance;
+    private int status;
+    
     // The total amount of money collected by this machine.
     private int total;
 
@@ -34,7 +36,7 @@ public class TicketMachine
      * Return the price of a ticket.
      */
     public int getPrice()
-    {
+    {   
         return price;
     }
 
